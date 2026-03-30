@@ -167,20 +167,20 @@ h2{
   min-height:100vh;  /* dark blue */
   color: #fff;                 /* white text for contrast */
 }
-#about ul li {
-font-size:16px;
+#about p ul li {
+font-size:15px;
 }
 #skills ul li {
-font-size:16px;
+font-size:15px;
 }
-#projects ul li {
-font-size:16px;
+#projects  p ul li {
+font-size:15px;
 }
 #education ul li {
-font-size:16px;
+font-size:15px;
 }
 #contact ul li {
-font-size:16px;
+font-size:15px;
 }
 #about {
   margin: 0 auto;
@@ -297,19 +297,20 @@ body{
     font-size: 16px;
   }
 .image {
-  width: 110px;
-  height: 110px;
+  width: 180px;
+  height: 180px;
   flex-shrink:0;
   overflow: hidden;
   box-shadow: 0 0 15px #00e5ff;
+  border-radius:50%;
+   transition:all 0.4s ease;
 }
 .image img {
-    width:100%;
-    height:100%;
-    border-radius:50%;
-    margin-top:15px;
-    object-fit:cover;
-
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  display:block;
 }
    .socials {
   margin-top: 10px;
@@ -320,15 +321,23 @@ body{
   color: black;
 }
 /* ABOUT + PROJECTS + LISTS */
-ul {
-  margin-top: 10px;
-  padding-left: 18px;
+#about  p ul li {
+font-size:16px;
+}
+#skills ul li {
+font-size:16px;
+}
+#projects p  ul li {
+font-size:16px;
+}
+#education ul li {
+font-size:16px;
+}
+#contact ul li {
+font-size:16px;
 }
 
- p, li {
-  font-size: 14px;
-  margin-bottom: 6px;
-}
+ 
 
 /* HEADINGS */
 h2 {
