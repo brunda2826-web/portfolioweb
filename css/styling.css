@@ -93,7 +93,11 @@ nav a:hover::after {
   font-size: 48px;
   margin-bottom: 10px;
 }
-
+.container p {
+  font-size: 18px;
+  line-height:1.8;
+  margin-bottom: 8px;
+}
 .hero p {
   font-size: 20px;
   margin: 15px 0;
@@ -165,20 +169,20 @@ h2{
   min-height:100vh;  /* dark blue */
   color: #fff;                 /* white text for contrast */
 }
-#about p ul li {
-font-size:15px;
+#about ul li {
+font-size:18px;
 }
 #skills ul li {
-font-size:15px;
+font-size:18px;
 }
-#projects  p ul li {
-font-size:15px;
+#projects ul li {
+font-size:18px;
 }
 #education ul li {
-font-size:15px;
+font-size:18px;
 }
 #contact ul li {
-font-size:15px;
+font-size:18px;
 }
 #about {
   margin: 0 auto;
@@ -340,9 +344,9 @@ h2 {
 }
 
 /* PARAGRAPHS */
-p {
-  font-size: 14px;
-  line-height:1.5;
+.container p {
+  font-size: 16px;
+  line-height:1.7;
   margin-bottom: 8px;
 }
 
