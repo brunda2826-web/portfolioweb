@@ -321,20 +321,20 @@ body{
 }
 /* ABOUT + PROJECTS + LISTS */
 #about ul li {
-font-size:16px;
+font-size:17px;
 }
 #skills ul li {
-font-size:16px;
+font-size:17px;
 }
 #projects ul li {
-font-size:16px;
+font-size:17px;
 
 }
 #education ul li {
-font-size:16px;
+font-size:17px;
 }
 #contact ul li {
-font-size:16px;
+font-size:17px;
 }
 
 /* HEADINGS */
@@ -345,8 +345,8 @@ h2 {
 
 /* PARAGRAPHS */
 .container p {
-  font-size: 16px;
-  line-height:1.7;
+  font-size: 17px;
+  line-height:1.8;
   margin-bottom: 8px;
 }
 
