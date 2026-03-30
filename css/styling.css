@@ -65,7 +65,7 @@ nav a.active::after,
 nav a:hover::after {
   width: 100%;
 }
-
+/* Background and text colors for each section */
 /* Sections */
 .section {
   min-height: 70vh;
@@ -138,10 +138,11 @@ h2{
 
 /* Image */
 .image {
-  width: 180px;
-  height: 180px;
+  width: 200px;
+  height: 200px;
   flex-shrink:0;
   overflow: hidden;
+  margin: 15px 0;
   box-shadow: 0 0 15px #00e5ff;
   border-radius:50%;
    transition:all 0.4s ease;
@@ -149,8 +150,7 @@ h2{
 .image:hover{
     color:#00e5ff;
     transform:scale(1.05);
-   
-
+  
 }
 .image img {
   width: 100%;
@@ -158,10 +158,8 @@ h2{
   object-fit: cover;
   object-position: center top;
   display:block;
-}/** Make each section full viewport height and add padding */
-
-
-/* Background and text colors for each section */
+}
+/** Make each section full viewport height and add padding */
 #home {
   background-color: #103236;
   min-height:100vh;  /* dark blue */
@@ -292,13 +290,9 @@ body{
   .hero h1 {
     font-size: 28px;
   }
-
-  .hero p {
-    font-size: 16px;
-  }
 .image {
-  width: 180px;
-  height: 180px;
+  width: 210px;
+  height: 210px;
   flex-shrink:0;
   overflow: hidden;
   box-shadow: 0 0 15px #00e5ff;
@@ -311,6 +305,7 @@ body{
   object-fit: cover;
   object-position: center top;
   display:block;
+  border-radius:50%;
 }
    .socials {
   margin-top: 10px;
@@ -336,8 +331,6 @@ font-size:16px;
 #contact ul li {
 font-size:16px;
 }
-
- 
 
 /* HEADINGS */
 h2 {
