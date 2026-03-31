@@ -258,24 +258,49 @@ body{
     max-width:100%;
   }
   .welcoming nav {
-    display:grid;
-    grid-template-columns:repeat(3,auto);
-    justify-content:center;
+    position:sticky;
+    top:10px;
+    display:flex;
+    flex-direction:column;
+   padding-left:10px;
     align-items:center;
      padding: 12px;
       gap:10px;
   }
-  .nav-link {
-    width:100%;
-    text-decoration: none;
-    padding: 8px 10px;
-    background: #f0f0f0;
-    border-radius: 10px;
-    font-size: 14px;
-    text-align:center;
-    margin:0;
+  /* top row (5 links) */
+.nav-links-top {
+  display: flex;
+  gap: 10px;
+   justify-content:flex;
+  justify-content: center;
+  flex-wrap: nowrap;
 }
- 
+  .nav-link {
+    text-decoration: none;
+    padding: 4px 0;
+    color:white;
+    position:relative;
+    font-size:14px;
+    white-space:nowrap;
+}
+ /* active underline */
+.nav-link.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 100%;
+  height: 2px;
+  background: #4CAF50;  /* theme green */
+}
+
+/* contact button */
+.nav-link.contact {
+  background: white;
+  color: black;
+  padding: 6px 12px;
+  border-radius: 15px;
+}
   .hero-text {
     flex-direction: column;
     gap:20px;
