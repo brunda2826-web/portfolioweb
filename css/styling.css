@@ -263,18 +263,18 @@ body{
   }
   .welcoming nav {
     display:grid;
-    grid-template-columns:repeat(3,1fr);
+    grid-template-columns:repeat(3,auto);
     justify-content:flex-start;
     align-items:center;
-     padding: 10px;
+     padding: 12px;
       gap:8px;
   }
   .nav-link {
-    width:100%;
+   
     text-decoration: none;
-    padding: 6px 8px;
+    padding: 10px 12px;
     background: #f0f0f0;
-    border-radius: 15px;
+    border-radius: 12px;
     font-weight: 500;
     font-size: 13px;
     text-align:center;
